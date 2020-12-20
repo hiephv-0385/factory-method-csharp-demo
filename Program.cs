@@ -8,13 +8,10 @@ namespace factory_demo
         {
             Console.WriteLine("Hello transportation app !");
            
-            var sedan = new Sedan();
-            Console.WriteLine("{0}", sedan.CreateVehicle());
-
-            var truck = new Truck();
+            var truck = new TruckCreator();
             Console.WriteLine("{0}", truck.CreateVehicle());
 
-            var bus = new Bus();
+            var bus = new BusCreator();
             Console.WriteLine("{0}", bus.CreateVehicle());
         }
     }

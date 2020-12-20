@@ -1,6 +1,6 @@
 using System;
 
-public class Truck: Transportor
+public class TruckCreator: Transportor
 {
     public override ICar CreateCar()
     {
